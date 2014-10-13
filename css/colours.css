@@ -1,0 +1,62 @@
+
+h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a
+/* { color: #457DD0; } */
+{ color: #4a3b1f; }
+
+#introduction h2, #attention {
+ background: #906291;
+/* background: #bfbb86; */
+background: rgba(155,155,120,0.85);
+ color: #f7fff7;
+}
+
+
+
+#introduction a, #attention a {
+ color: white;
+ border-color: white;
+}
+
+
+h1 A:hover, h2 A:hover, h3 A:hover, h4 A:hover
+{ color: #457DD0; }
+
+
+.fees 
+{ background: #dcECFF; }
+.fees th, .fees thead {
+  color: #457DD0;
+}
+
+body
+{ background: #e0dbd1; }
+/* { background: #dCEBcc; } */
+/* { background: #E0DCEC; } */
+
+.header, #content {
+ background: white;
+ /* *
+ background-image: url(column-template.gif);
+ background-repeat: repeat-y; /* */
+}
+
+DIV#main,
+DIV#committees,
+DIV#past-emnlp
+{ background: #efece6; }
+/* { background: #f7f7ff; } */
+
+
+#introduction {
+ background-color: #4a3b1f;
+ background-image: url(LxMLS2014-WEB.jpg);
+ background-size: Auto 380px;
+ height: 380px;
+}
+
+#footer
+{}
+
+#content P BIG A {
+ color: darkred;
+}
