@@ -29,7 +29,8 @@ h1 A:hover, h2 A:hover, h3 A:hover, h4 A:hover
 }
 
 body
-{ background: #e0dbd1; }
+{ background: #d0cbc1; }
+/* { background: #e0dbd1; } */
 /* { background: #dCEBcc; } */
 /* { background: #E0DCEC; } */
 
@@ -50,7 +51,8 @@ DIV#past-emnlp
 #introduction {
  background-color: #4a3b1f;
  background-image: url(alfama.jpg);
- background-size: Auto 420px;
+ background-size: Auto;
+/* background-size: Auto 480px; */
  height: 380px;
 }
 
