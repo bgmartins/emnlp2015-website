@@ -28,7 +28,8 @@ h1 A:hover, h2 A:hover, h3 A:hover, h4 A:hover
 body
 /* { background: #e6f3d3; } */
 /* { background: #dCEBcc; } */
-{ background: #EBEBcc; }
+/* { background: #EBEBcc; } */
+{ background: #22354a; }
 
 .header, #content {
  background: white;
@@ -46,7 +47,7 @@ DIV#contacts
 
 #introduction {
  background-color: #1456A4;
- background-image: url(jeju-1280.jpg);
+ background-image: url(alfama-alternative.jpg);
  height: 380px;
 }
 
