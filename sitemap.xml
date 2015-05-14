@@ -1,28 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>http://www.emnlp2015.org/</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://www.emnlp2015.org/index.html</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://www.emnlp2015.org/index.php</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://www.emnlp2015.org/call.html</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://www.emnlp2015.org/local.html</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.emnlp2015.org/</loc>
+  <lastmod>2015-05-04T17:04:26+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/index.html</loc>
+  <lastmod>2015-05-04T17:04:26+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/call.html</loc>
+  <lastmod>2015-04-29T15:25:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/tutorials.html</loc>
+  <lastmod>2015-04-29T15:26:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/organization.html</loc>
+  <lastmod>2015-04-29T15:26:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/workshops.html</loc>
+  <lastmod>2015-04-29T15:26:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/submissions.html</loc>
+  <lastmod>2015-05-04T17:10:31+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.emnlp2015.org/local.html</loc>
+  <lastmod>2015-04-29T15:26:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
 </urlset>
