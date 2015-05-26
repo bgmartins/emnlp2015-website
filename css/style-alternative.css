@@ -8,11 +8,12 @@
     visibility: hidden;
 }
 
-.clearfix { display: inline-table; }
+.clearfix {display: inline-table;}
+
 
 /* Hides from IE-mac \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
 /* End hide from IE-mac */
 
 /* ------------------------------ */
@@ -27,7 +28,7 @@ body {
 }
 
 html>body {
- font-size: 12.5px;
+ font-size: 13px;
 }
 
 .header {
@@ -39,6 +40,7 @@ html>body {
 .header, #content {
  margin: 0 auto;
  width: 880px;
+  
  border-width: 0 2px 0 2px;
  border-style: solid;
  border-color: #b5b5b5;
@@ -54,6 +56,7 @@ A { color: #404040; text-decoration: none; border-bottom: 1px dotted #404040; }
 A:hover { color: #101010; border-bottom: 1px solid #101010; }
 P { margin: 0.7em 0; }
 H2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.7em; }
+
 
 /* --- introduction and banner --- */
 
@@ -107,8 +110,9 @@ H2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.7em; }
  line-height: 1.5em;
 }
 
-/* --- main content -------------- */
 
+
+/* --- main content -------------- */
 DIV#main { overflow: hidden; }
 
 #page #content {
@@ -141,6 +145,7 @@ DIV#main { overflow: hidden; }
   margin-right: 0px;
 }
 
+
 #content {
  margin-top: -10px;
  position: relative;
@@ -148,6 +153,12 @@ DIV#main { overflow: hidden; }
 
 #home #content {
  margin-top: 0;
+/* TODO - remove when removing column template
+ *
+ background-image: url(shadow.png);
+ background-position: top;
+ background-repeat: repeat-x;
+/* */
 }
 
 #content DIV {
@@ -156,11 +167,24 @@ DIV#main { overflow: hidden; }
  border-bottom: 1px solid white;
 }
 
+/* *
+#content DIV, #content LI { outline: 1px solid orange; }
+#content UL { outline: 1px solid red; }
+/* */
+
 #content DIV DIV {
  clear: none;
  padding: 0;
  border: 0;
 }
+
+/*
+#content DIV P {
+ font-size: 1.2em;
+ line-height: 1.5em;
+ margin: 1.2em 79px;
+}
+*/
 
 #content UL {
  margin: 2.1em 160px;
@@ -179,21 +203,26 @@ DIV#main { overflow: hidden; }
  list-style-type: none;
  margin: 1em 0;
  margin-left: 79px;
- font-size: 1.1em;
- line-height: 1.1em;
+ font-size: 1.2em;
+ line-height: 1em;
 }
 
 #main LI {
  margin: 1.4em 0;
 }
 
-#participants,
-#general,
-#conference,
-#authors {
+ 
+#authors,
+#general {
  float: left;
- width: 395px;
+ width: 460px;
 }
+
+#conference {
+ float: left;
+ width: 400px;
+}
+
 
 #committees {
  padding-top: 30em;
@@ -289,6 +318,8 @@ DIV#main { overflow: hidden; }
  font-size: 0.95em;
 }
 
+
+
 #footer {
  clear: both;
  text-align: center;
@@ -319,6 +350,8 @@ DIV#main { overflow: hidden; }
  width: 860px;
  margin: 0 auto;
 }
+
+
 
 #page #content UL.titles {
  margin: 2em 100px;
@@ -361,6 +394,7 @@ UL.titles LI {
   font-variant: small-caps;
   border-top: 1px solid #b5b5b5;
 }
+
 
 .new {
  margin-left: -48px !important;
@@ -543,6 +577,8 @@ DIV#talks, DIV#posters {
 
 /* END -------- program info -------- */
  
+
+
 @media screen and (max-width: 900px) {
 
  body {

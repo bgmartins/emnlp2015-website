@@ -1,10 +1,12 @@
 
 h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a
-{ color: #0c509e; }
+/* { color: #457DD0; } */
+{ color: #4a3b1f; }
 
 #introduction h2, #attention {
- background: #0C509E;
- background: rgba(15,81,160,0.8);
+ background: #906291;
+/* background: #bfbb86; */
+background: rgba(155,155,120,0.85);
  color: #f7fff7;
 }
 
@@ -17,20 +19,20 @@ h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a
 
 
 h1 A:hover, h2 A:hover, h3 A:hover, h4 A:hover
-{ color: #0C509e; }
+{ color: #457DD0; }
+
 
 .fees 
 { background: #dcECFF; }
 .fees th, .fees thead {
-  color: #0c509e;
+  color: #457DD0;
 }
 
 body
-/* { background: #e6f3d3; } */
-/* { background: #dCEBcc; } */
-/* { background: #EBEBcc; } */
-/* { background: #22354a; } */
 { background: #d0cbc1; }
+/* { background: #e0dbd1; } */
+/* { background: #dCEBcc; } */
+/* { background: #E0DCEC; } */
 
 .header, #content {
  background: white;
@@ -41,14 +43,16 @@ body
 
 DIV#main,
 DIV#committees,
-DIV#past-emnlp,
-DIV#contacts
-{ background: #f7f7ff; }
+DIV#past-emnlp
+{ background: #efece6; }
+/* { background: #f7f7ff; } */
 
 
 #introduction {
- background-color: #1456A4;
- background-image: url(alfama-alternative.jpg);
+ background-color: #4a3b1f;
+ background-image: url(alfama.jpg);
+ background-size: Auto;
+/* background-size: Auto 480px; */
  height: 380px;
 }
 
