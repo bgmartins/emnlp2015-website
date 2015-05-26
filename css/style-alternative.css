@@ -192,7 +192,7 @@ DIV#main { overflow: hidden; }
 #conference,
 #authors {
  float: left;
- width: 390px;
+ width: 400px;
 }
 
 #committees {
