@@ -188,15 +188,11 @@ DIV#main { overflow: hidden; }
 }
 
 #participants,
-#general {
- float: left;
- width: 400px;
-}
-
+#general,
 #conference,
 #authors {
  float: left;
- width: 400px;
+ width: 390px;
 }
 
 #committees {
