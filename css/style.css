@@ -264,7 +264,7 @@ DIV#cmain { overflow: hidden; }
 #committees LI SPAN, #past-emnlp LI SPAN, #past-conll LI SPAN {
  display: block;
  font-variant: small-caps;
- font-size: 0.9em;
+ font-size: 0.85em;
 }
 
 #committees LI A, #past-emnlp LI A, #past-conll LI A {
@@ -386,7 +386,7 @@ UL.titles LI {
  margin-left: -55px !important;
  padding-left: 55px;
  background: url(new.png) top left no-repeat;
- background-size: 45px 12px;
+ background-size: 45px 13px;
  padding-bottom: 1px
 }
 
@@ -394,7 +394,7 @@ UL.titles LI {
  margin-left: -55px !important;
  padding-left: 55px;
  background: url(update.png) top left no-repeat;
- background-size: 45px 12px;
+ background-size: 45px 13px;
  padding-bottom: 1px
 }
 
