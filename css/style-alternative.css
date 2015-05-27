@@ -395,18 +395,19 @@ UL.titles LI {
   border-top: 1px solid #b5b5b5;
 }
 
-
 .new {
- margin-left: -48px !important;
- padding-left: 48px;
+ margin-left: -55px !important;
+ padding-left: 55px;
  background: url(new.png) top left no-repeat;
+ background-size: 45px 15px;
  padding-bottom: 1px
 }
 
 .update { 
- margin-left: -72px !important;
- padding-left: 72px;
+ margin-left: -55px !important;
+ padding-left: 55px;
  background: url(update.png) top left no-repeat;
+ background-size: 45px 15px;
  padding-bottom: 1px
 }
 

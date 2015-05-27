@@ -111,6 +111,8 @@ H2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.7em; }
 
 DIV#main { overflow: hidden; }
 
+DIV#cmain { overflow: hidden; }
+
 #page #content {
  padding: 0.5em 0 2.5em 0;
 }
@@ -184,6 +186,23 @@ DIV#main { overflow: hidden; }
 }
 
 #main LI {
+ margin: 0.9em 0;
+}
+
+#cmain DIV {
+ padding-top: 10em;
+ padding-bottom: 10em;
+}
+
+#cmain UL {
+ list-style-type: none;
+ margin: 0.9em 0;
+ margin-left: 55px;
+ font-size: 1.1em;
+ line-height: 1.1em;
+}
+
+#cmain LI {
  margin: 0.9em 0;
 }
 

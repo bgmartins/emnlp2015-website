@@ -29,19 +29,16 @@ body
 /* { background: #1476D4; } */
 { background: #1A2739; }
 
-.header, #content {
- background: white;
- /* *
- background-image: url(column-template.gif);
- background-repeat: repeat-y; /* */
-}
+.header, #content { background: white; }
 
 DIV#main,
-DIV#committees,
 DIV#past-emnlp,
 DIV#contacts
 { background: #f7f7ff; }
 
+DIV#cmain,
+DIV#committees ,
+{ background: white; }
 
 #introduction {
  background-color: #1456A4;
