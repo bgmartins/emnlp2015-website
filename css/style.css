@@ -264,7 +264,7 @@ DIV#cmain { overflow: hidden; }
 #committees LI SPAN, #past-emnlp LI SPAN, #past-conll LI SPAN {
  display: block;
  font-variant: small-caps;
- font-size: 0.85em;
+ font-size: 0.8em;
 }
 
 #committees LI A, #past-emnlp LI A, #past-conll LI A {
