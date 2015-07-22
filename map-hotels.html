@@ -86,7 +86,23 @@
        var ii1 = new google.maps.InfoWindow({ content: "<b>Pestana Palace</b>" });
        google.maps.event.addListener(mm1, 'click', function() { ii1.open(map,mm1); });	
 
+	   var mm2 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.6985545,-9.2050999),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Hotel Jeronimos 8'
+       });	    
+       var ii2 = new google.maps.InfoWindow({ content: "<b>Hotel Jeronimos 8</b>" });
+       google.maps.event.addListener(mm2, 'click', function() { ii2.open(map,mm2); });	
 
+	   var mm3 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.700093,-9.180657),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Hotel Vila Galé Ópera'
+       });	    
+       var ii3 = new google.maps.InfoWindow({ content: "<b>Hotel Vila Galé Ópera</b>" });
+       google.maps.event.addListener(mm3, 'click', function() { ii3.open(map,mm3); });	
 
        // makers for hotels in Downtown (Baixa) area
 	   var mmm1 = new google.maps.Marker({
@@ -111,9 +127,9 @@
         map: map,
         position: new google.maps.LatLng(38.7106871,-9.1419205),
 		icon: "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png",
-        title: 'Hotel Borges'
+        title: 'Hotel Borges Chiado'
        });	    
-       var iii3 = new google.maps.InfoWindow({ content: "<b>Hotel Borges</b>" });
+       var iii3 = new google.maps.InfoWindow({ content: "<b>Hotel Borges Chiado</b>" });
        google.maps.event.addListener(mmm3, 'click', function() { iii3.open(map,mmm3); });	
 	   
 		   
@@ -127,6 +143,16 @@
        });	    
        var iiii1 = new google.maps.InfoWindow({ content: "<b>Altis Avenida Hotel</b>" });
        google.maps.event.addListener(mmmm1, 'click', function() { iiii1.open(map,mmmm1); });	
+
+	   var mmmm2 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.720655,-9.146699),
+		icon: "http://maps.google.com/mapfiles/ms/icons/orange-dot.png",
+        title: 'Hotel Tivoli Lisboa'
+       });	    
+       var iiii2 = new google.maps.InfoWindow({ content: "<b>Hotel Tivoli Lisboa</b>" });
+       google.maps.event.addListener(mmmm2, 'click', function() { iiii2.open(map,mmmm2); });	
+	      
 
       }	  
 	  	  			
