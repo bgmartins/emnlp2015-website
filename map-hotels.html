@@ -16,20 +16,68 @@
       function initialize() {
        var VENUE = new google.maps.LatLng(38.740896,-9.142813);
 	   var mapOptions = {
-        zoom: 13,
+        zoom: 14,
 		center: VENUE
        };
     
        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    
-       var Culturgest = new google.maps.Marker({
+    	
+       var m1 = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(38.740896,-9.142813),
+		icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
         title: 'Culturgest'
        });
-	    
-      }
-	
+	   var i1 = new google.maps.InfoWindow({ content: "<b>Culturgest<br/><i>(conference venue)</i></b>" });
+	   google.maps.event.addListener(m1, 'click', function() { i1.open(map,m1); });
+       	   
+	   var m2 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7415193,-9.1496273),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Holiday Inn Lisbon - Continental'
+       });	    
+       var i2 = new google.maps.InfoWindow({ content: "<b>Holiday Inn Lisbon - Continental</b>" });
+       google.maps.event.addListener(m2, 'click', function() { i2.open(map,m2); });
+	   
+	   
+
+       // makers for hotels in Belem and Tagus river (Rio Tejo) area
+	   var mm1 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7034274,-9.1868127),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Pestana Palace'
+       });	    
+       var ii1 = new google.maps.InfoWindow({ content: "<b>Pestana Palace</b>" });
+       google.maps.event.addListener(mm1, 'click', function() { ii1.open(map,mm1); });	
+
+
+
+       // makers for hotels in Downtown (Baixa) area
+	   var mmm1 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7130401,-9.1384264),
+		icon: "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png",
+        title: 'Internacional Design Hotel'
+       });	    
+       var iii1 = new google.maps.InfoWindow({ content: "<b>Internacional Design Hotel</b>" });
+       google.maps.event.addListener(mmm1, 'click', function() { iii1.open(map,mmm1); });	
+
+
+
+       // makers for hotels in Marquês de Pombal area
+	   var mmmm1 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7150363,-9.1407538),
+		icon: "http://maps.google.com/mapfiles/ms/icons/orange-dot.png",
+        title: 'Altis Avenida Hotel'
+       });	    
+       var iiii1 = new google.maps.InfoWindow({ content: "<b>Altis Avenida Hotel</b>" });
+       google.maps.event.addListener(mmm1, 'click', function() { iiii1.open(map,mmmm1); });	
+
+      }	  
+	  	  			
       google.maps.event.addDomListener(window, 'load', initialize);
 	    
     </script>

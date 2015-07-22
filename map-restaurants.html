@@ -16,7 +16,7 @@
       function initialize() {
        var VENUE = new google.maps.LatLng(38.740896,-9.142813);
 	   var mapOptions = {
-        zoom: 15,
+        zoom: 14,
 		center: VENUE
        };
     
@@ -158,8 +158,128 @@
        var ii4 = new google.maps.InfoWindow({ content: "<b>Pizzaria Costini</b>" });
        google.maps.event.addListener(mm4, 'click', function() { ii4.open(map,mm4); });
 
-      }
-	
+	   var mm5 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7343788,-9.1415934),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Estrela da Estefania'
+       });	    
+       var ii5 = new google.maps.InfoWindow({ content: "<b>Estrela da Estefania</b>" });
+       google.maps.event.addListener(mm5, 'click', function() { ii5.open(map,mm5); });
+	   
+	   var mm6 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.734527, -9.141359),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Solar do Arco'
+       });	    
+       var ii6 = new google.maps.InfoWindow({ content: "<b>Solar do Arco</b>" });
+       google.maps.event.addListener(mm6, 'click', function() { ii6.open(map,mm6); });
+	   
+	   var mm7 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7344629,-9.141342),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'O Pavão'
+       });	    
+       var ii7 = new google.maps.InfoWindow({ content: "<b>O Pavão</b>" });
+       google.maps.event.addListener(mm7, 'click', function() { ii7.open(map,mm6); });
+
+	   var mm8 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7339142,-9.1412344),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Palácio do Mar'
+       });	    
+       var ii8 = new google.maps.InfoWindow({ content: "<b>Palácio do Mar</b>" });
+       google.maps.event.addListener(mm8, 'click', function() { ii8.open(map,mm8); });
+
+	   var mm9 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7350887,-9.1424006),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Duas Amazonas'
+       });	    
+       var ii9 = new google.maps.InfoWindow({ content: "<b>Duas Amazonas</b>" });
+       google.maps.event.addListener(mm9, 'click', function() { ii9.open(map,mm9); });
+
+
+	   var mm11 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7352965,-9.1439499),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Super Chefe'
+       });	    
+       var ii11 = new google.maps.InfoWindow({ content: "<b>Super Chefe</b>" });
+       google.maps.event.addListener(mm11, 'click', function() { ii11.open(map,mm11); });
+
+	   var mm12 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.735204, -9.144195),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Italy Lisbona'
+       });	    
+       var ii12 = new google.maps.InfoWindow({ content: "<b>Italy Lisbona</b>" });
+       google.maps.event.addListener(mm12, 'click', function() { ii12.open(map,mm12); });
+
+	   var mm13 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7352862,-9.1442718),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Café São Remo'
+       });	    
+       var ii13 = new google.maps.InfoWindow({ content: "<b>Café São Remo</b>" });
+       google.maps.event.addListener(mm13, 'click', function() { ii13.open(map,mm13); });
+	   
+	   var mm14 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7332325,-9.1427046),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'À Parte'
+       });	    
+       var ii14 = new google.maps.InfoWindow({ content: "<b>À Parte</b>" });
+       google.maps.event.addListener(mm14, 'click', function() { ii14.open(map,mm14); });
+
+	   var mm15 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7354436,-9.144917),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: "McDonald's"
+       });	    
+       var ii15 = new google.maps.InfoWindow({ content: "<b>McDonald's</b>" });
+       google.maps.event.addListener(mm15, 'click', function() { ii15.open(map,mm15); });
+
+
+
+	   var mm18 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.742432,-9.1465802),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: "Campo Pequeno"
+       });	    
+       var ii18 = new google.maps.InfoWindow({ content: "<b>Campo Pequeno<br/>(food court)</b>" });
+       google.maps.event.addListener(mm18, 'click', function() { ii18.open(map,mm18); });
+
+	   var mm19 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7331011,-9.1457507),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: "Monumental Saldanha"
+       });	    
+       var ii19 = new google.maps.InfoWindow({ content: "<b>Monumental Saldanha<br/>(food court)</b>" });
+       google.maps.event.addListener(mm19, 'click', function() { ii19.open(map,mm19); });
+	   
+	   var mm20 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.733091,-9.144718),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: "Monumental Saldanha"
+       });	    
+       var ii20 = new google.maps.InfoWindow({ content: "<b>Atrium Saldanha<br/>(food court)</b>" });
+       google.maps.event.addListener(mm20, 'click', function() { ii20.open(map,mm20); });
+
+      }	  
+	  			
       google.maps.event.addDomListener(window, 'load', initialize);
 	    
     </script>
