@@ -10,38 +10,21 @@
         padding: 0px
       }
     </style>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-
-      function initialize() {
-       var VENUE = new google.maps.LatLng(38.740896,-9.142813);
-	   var mapOptions = {
-        zoom: 14,
+	<script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var VENUE = new google.maps.LatLng(38.740896,-9.142813);
+	  var mapOptions = {
+        zoom: 13,
 		center: VENUE
-       };
+      };
     
-       var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     
-       var ComplexoInterdisciplinar = new google.maps.Marker({
-        map:map,
+      var ComplexoInterdisciplinar = new google.maps.Marker({
+        map: map,
         position: new google.maps.LatLng(38.736035, -9.140089),
         title: 'Complexo Interdisciplinar'
-       });
-
-       var PavilhaoInformatica = new google.maps.Marker({
-        map:map,
-        position: new google.maps.LatLng(38.737875, -9.137842),
-        title: 'Pavilhao Informatica'
-       });
-	    
-      }
-
-    var contentString = 'Hello <strong>World</strong>!';
-    var infowindow = new google.maps.InfoWindow({ });
-	
-    google.maps.event.addDomListener(window, 'load', initialize);
-    google.maps.event.addListener(marker, 'click', function() { infowindow.open(map,marker); });
-	    
+      });
     </script>
   </head>
   <body>
