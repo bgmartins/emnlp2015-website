@@ -128,9 +128,36 @@
 		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
         title: 'Café Império'
        });	    
-       var ii1 = new google.maps.InfoWindow({ content: "<b>Café Impérioo</b>" });
+       var ii1 = new google.maps.InfoWindow({ content: "<b>Café Império</b>" });
        google.maps.event.addListener(mm1, 'click', function() { ii1.open(map,mm1); });	
-	   
+
+	   var mm2 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7349353,-9.140477),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Rialva'
+       });	    
+       var ii2 = new google.maps.InfoWindow({ content: "<b>Rialva</b>" });
+       google.maps.event.addListener(mm2, 'click', function() { ii2.open(map,mm2); });	
+
+	   var mm3 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7353694,-9.1411492),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Açucar e Canela'
+       });	    
+       var ii3 = new google.maps.InfoWindow({ content: "<b>Açucar e Canela</b>" });
+       google.maps.event.addListener(mm3, 'click', function() { ii3.open(map,mm3); });	
+
+	   var mm4 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7347362,-9.1416378),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Pizzaria Costini'
+       });	    
+       var ii4 = new google.maps.InfoWindow({ content: "<b>Pizzaria Costini</b>" });
+       google.maps.event.addListener(mm4, 'click', function() { ii4.open(map,mm4); });
+
       }
 	
       google.maps.event.addDomListener(window, 'load', initialize);
