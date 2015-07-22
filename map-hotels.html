@@ -57,7 +57,25 @@
        });	    
        var i4 = new google.maps.InfoWindow({ content: "<b>Hotel Alif Campo Pequeno</b>" });
        google.maps.event.addListener(m4, 'click', function() { i4.open(map,m4); });	   
-	   	   
+
+	   var m5 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.742884,-9.150104),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'VIP Executive Zurique Hotel'
+       });	    
+       var i5 = new google.maps.InfoWindow({ content: "<b>VIP Executive Zurique Hotel</b>" });
+       google.maps.event.addListener(m5, 'click', function() { i5.open(map,m5); });	  
+
+	   var m6 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.74303,-9.148117),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'VIP Inn Berna Hotel'
+       });	    
+       var i6 = new google.maps.InfoWindow({ content: "<b>VIP Inn Berna Hotel</b>" });
+       google.maps.event.addListener(m6, 'click', function() { i6.open(map,m6); });	 
+	   	   	   
        // makers for hotels in Belem and Tagus river (Rio Tejo) area
 	   var mm1 = new google.maps.Marker({
         map: map,
