@@ -16,19 +16,30 @@
       function initialize() {
        var VENUE = new google.maps.LatLng(38.740896,-9.142813);
 	   var mapOptions = {
-        zoom: 13,
+        zoom: 15,
 		center: VENUE
        };
     
        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    
-       var Culturgest = new google.maps.Marker({
+    	
+       var m1 = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(38.740896,-9.142813),
+		icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
         title: 'Culturgest'
        });
-	    
+	   var i1 = new google.maps.InfoWindow({ content: "<b>Culturgest</b>" });
+	   google.maps.event.addListener(m1, 'click', function() { i1.open(map,m1); });
+       	   
+	   var m2 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7067345,-9.1459449),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Time Out Mercado da Ribeira'
+       });	    
       }
+      var i1 = new google.maps.InfoWindow({ content: "<b>Time Out Mercado da Ribeira</b>" });
+      google.maps.event.addListener(m1, 'click', function() { i1.open(map,m1); });
 	
       google.maps.event.addDomListener(window, 'load', initialize);
 	    
