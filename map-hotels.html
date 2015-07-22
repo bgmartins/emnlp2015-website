@@ -75,7 +75,16 @@
        });	    
        var i6 = new google.maps.InfoWindow({ content: "<b>VIP Inn Berna Hotel</b>" });
        google.maps.event.addListener(m6, 'click', function() { i6.open(map,m6); });	 
-	   	   	   
+
+	   var m7 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.732277,-9.144854),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=5|0000FF|FFFFFF",
+        title: 'VIP Executive Saldanha Hotel'
+       });	    
+       var i7 = new google.maps.InfoWindow({ content: "<b>VIP Executive Saldanha Hotel</b>" });
+       google.maps.event.addListener(m6, 'click', function() { i7.open(map,m7); });	 
+	   	   	   	   	   
        // makers for hotels in Belem and Tagus river (Rio Tejo) area
 	   var mm1 = new google.maps.Marker({
         map: map,
