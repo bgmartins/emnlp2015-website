@@ -98,7 +98,25 @@
        var iii1 = new google.maps.InfoWindow({ content: "<b>Internacional Design Hotel</b>" });
        google.maps.event.addListener(mmm1, 'click', function() { iii1.open(map,mmm1); });	
 
+	   var mmm2 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7132785,-9.1375814),
+		icon: "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png",
+        title: 'The Beautique Hotels Figueira'
+       });	    
+       var iii2 = new google.maps.InfoWindow({ content: "<b>The Beautique Hotels Figueira</b>" });
+       google.maps.event.addListener(mmm2, 'click', function() { iii2.open(map,mmm2); });	
 
+	   var mmm3 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7106871,-9.1419205),
+		icon: "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png",
+        title: 'Hotel Borges'
+       });	    
+       var iii3 = new google.maps.InfoWindow({ content: "<b>Hotel Borges</b>" });
+       google.maps.event.addListener(mmm3, 'click', function() { iii3.open(map,mmm3); });	
+	   
+		   
 
        // makers for hotels in Marquês de Pombal area
 	   var mmmm1 = new google.maps.Marker({
@@ -108,7 +126,7 @@
         title: 'Altis Avenida Hotel'
        });	    
        var iiii1 = new google.maps.InfoWindow({ content: "<b>Altis Avenida Hotel</b>" });
-       google.maps.event.addListener(mmm1, 'click', function() { iiii1.open(map,mmmm1); });	
+       google.maps.event.addListener(mmmm1, 'click', function() { iiii1.open(map,mmmm1); });	
 
       }	  
 	  	  			
