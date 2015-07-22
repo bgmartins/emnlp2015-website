@@ -16,7 +16,7 @@
       function initialize() {
        var VENUE = new google.maps.LatLng(38.740896,-9.142813);
 	   var mapOptions = {
-        zoom: 14,
+        zoom: 16,
 		center: VENUE
        };
     
@@ -40,8 +40,24 @@
        var i2 = new google.maps.InfoWindow({ content: "<b>Holiday Inn Lisbon - Continental</b>" });
        google.maps.event.addListener(m2, 'click', function() { i2.open(map,m2); });
 	   
+	   var m3 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7408994,-9.15023),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Hotel 3K Barcelona'
+       });	    
+       var i3 = new google.maps.InfoWindow({ content: "<b>Hotel 3K Barcelona</b>" });
+       google.maps.event.addListener(m3, 'click', function() { i3.open(map,m3); });
 	   
-
+	   var m4 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7420779,-9.1432278),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Hotel Alif Campo Pequeno'
+       });	    
+       var i4 = new google.maps.InfoWindow({ content: "<b>Hotel Alif Campo Pequeno</b>" });
+       google.maps.event.addListener(m4, 'click', function() { i4.open(map,m4); });	   
+	   	   
        // makers for hotels in Belem and Tagus river (Rio Tejo) area
 	   var mm1 = new google.maps.Marker({
         map: map,
