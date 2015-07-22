@@ -40,6 +40,97 @@
        var i2 = new google.maps.InfoWindow({ content: "<b>Time Out Mercado da Ribeira</b>" });
        google.maps.event.addListener(m2, 'click', function() { i2.open(map,m2); });
 
+	   var m3 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.720328,-9.135699),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Cervejaria Ramiro'
+       });	    
+       var i3 = new google.maps.InfoWindow({ content: "<b>Cervejaria Ramiro</b>" });
+       google.maps.event.addListener(m3, 'click', function() { i3.open(map,m3); });
+
+	   var m4 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7125034,-9.1425352),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Cervejaria Trindade'
+       });	    
+       var i4 = new google.maps.InfoWindow({ content: "<b>Cervejaria Trindade</b>" });
+       google.maps.event.addListener(m4, 'click', function() { i4.open(map,m4); });
+
+	   var m5 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7309459,-9.1346142),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Cervejaria Portugália'
+       });	    
+       var i5 = new google.maps.InfoWindow({ content: "<b>Cervejaria Portugália</b>" });
+       google.maps.event.addListener(m5, 'click', function() { i5.open(map,m5); });
+	   
+	   var m6 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7312086,-9.1340561),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Grande Palácio Hong-Kong'
+       });	    
+       var i6 = new google.maps.InfoWindow({ content: "<b>Grande Palácio Hong-Kong</b>" });
+       google.maps.event.addListener(m6, 'click', function() { i6.open(map,m6); });
+
+	   var m7 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7086661,-9.1420449),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Cantinho Do Avillez'
+       });	    
+       var i7 = new google.maps.InfoWindow({ content: "<b>Cantinho Do Avillez</b>" });
+       google.maps.event.addListener(m7, 'click', function() { i7.open(map,m7); });
+	   
+	   var m8 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7318133,-9.1492438),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'O Fondue'
+       });	    
+       var i8 = new google.maps.InfoWindow({ content: "<b>O Fondue</b>" });
+       google.maps.event.addListener(m8, 'click', function() { i8.open(map,m8); });	   
+	   	   
+	   var m9 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7084379,-9.1399831),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'TÁGIDE'
+       });	    
+       var i9 = new google.maps.InfoWindow({ content: "<b>TÁGIDE</b>" });
+       google.maps.event.addListener(m9, 'click', function() { i9.open(map,m9); });
+	   	   
+	   var m10 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7106233,-9.1443068),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Sea Me'
+       });	    
+       var i10 = new google.maps.InfoWindow({ content: "<b>Sea Me</b>" });
+       google.maps.event.addListener(m10, 'click', function() { i10.open(map,m10); });		   
+		   
+	   var m11 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7158876,-9.1401167),
+		icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+        title: 'Casa do Alentejo'
+       });	    
+       var i11 = new google.maps.InfoWindow({ content: "<b>Casa do Alentejo</b>" });
+       google.maps.event.addListener(m11, 'click', function() { i11.open(map,m11); });			   
+
+       // makers for restaurants close to the venue
+	   var mm1 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7363703,-9.1341702),
+		icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        title: 'Café Império'
+       });	    
+       var ii1 = new google.maps.InfoWindow({ content: "<b>Café Impérioo</b>" });
+       google.maps.event.addListener(mm1, 'click', function() { ii1.open(map,mm1); });	
+	   
       }
 	
       google.maps.event.addDomListener(window, 'load', initialize);
