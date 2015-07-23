@@ -121,6 +121,15 @@
        var i11 = new google.maps.InfoWindow({ content: "<b>Casa do Alentejo</b>" });
        google.maps.event.addListener(m11, 'click', function() { i11.open(map,m11); });			   
 
+	   var m12 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7113396,-9.1430123),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=10|0000FF|FFFFFF",
+        title: 'Tavares'
+       });	    
+       var i12 = new google.maps.InfoWindow({ content: "<b>Tavares</b>" });
+       google.maps.event.addListener(m12, 'click', function() { i12.open(map,m12); });			   
+	   
        // makers for restaurants close to the venue
 	   var mm1 = new google.maps.Marker({
         map: map,
