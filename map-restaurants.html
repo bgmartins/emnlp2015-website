@@ -202,8 +202,16 @@
        });	    
        var ii9 = new google.maps.InfoWindow({ content: "<b>Duas Amazonas</b>" });
        google.maps.event.addListener(mm9, 'click', function() { ii9.open(map,mm9); });
-
-
+	   
+	   var mm10 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.736076, -9.141670),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=10|32CD32|000000",
+        title: 'Café com Nata'
+       });	    
+       var ii10 = new google.maps.InfoWindow({ content: "<b>Café com Nata</b>" });
+       google.maps.event.addListener(mm10, 'click', function() { ii10.open(map,mm10); });
+	   
 	   var mm11 = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(38.7352965,-9.1439499),
@@ -249,7 +257,14 @@
        var ii15 = new google.maps.InfoWindow({ content: "<b>McDonald's</b>" });
        google.maps.event.addListener(mm15, 'click', function() { ii15.open(map,mm15); });
 
-
+	   var mm16 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7372729,-9.1419384),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=16|32CD32|000000",
+        title: "Vilhena"
+       });	    
+       var ii16 = new google.maps.InfoWindow({ content: "<b>Vilhena<br/>(food court)</b>" });
+       google.maps.event.addListener(mm16, 'click', function() { ii16.open(map,mm16); });
 
 	   var mm17 = new google.maps.Marker({
         map: map,
