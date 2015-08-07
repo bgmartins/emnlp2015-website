@@ -11,7 +11,36 @@
 		<title>
 			EMNLP 2015 - Local arrangements
 		</title>
+        <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+       </style>
+	   <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+       <script type="text/javascript">
+
+        function initialize() {
+         var VENUE = new google.maps.LatLng(38.740896,-9.142813);
+	     var mapOptions = {
+          zoom: 14,
+		  center: VENUE
+         };
+         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+         var m1 = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(38.740896,-9.142813),
+		  icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+          title: 'Culturgest'
+         });
+	     var i1 = new google.maps.InfoWindow({ content: "<b>Culturgest<br/><i>(conference venue)</i></b>" });
+	     google.maps.event.addListener(m1, 'click', function() { i1.open(map,m1); });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+       </script>
 	</head>
+
 	<body id="page">
 		<p class="header">
 			<a href="index.html">EMNLP 2015</a>: Conference on Empirical Methods in Natural Language Processing — September 17–21, 2015 — Lisboa, Portugal.
@@ -97,7 +126,10 @@ Páteo Alfacinha was created in 1981, featuring several spaces typical from the 
 				Lisbon is located on the coast of Portugal, overlooking the Atlantic Ocean, west central Portugal and at the mouth of the Tagus River. The city is the westernmost capital of a mainland European country. Portugal itself lies at mainland Europe’s western most point, where the inland Mediterranean Sea meets the Atlantic Ocean, and is simultaneously the western coast of the Iberian Peninsula with Spain as its sole land border. More information is available on the <a href="http://en.wikipedia.org/wiki/Lisbon">Wikipedia article on Lisbon</a>, and also on the <a href="http://wikitravel.org/en/Lisbon">Wikitravel article about Lisbon</a>.
 			</p>
 			<p>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99580.00554143198!2d-9.160203750000013!3d38.743626600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisbon!5e0!3m2!1sen!2spt!4v1427281562638" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				<center>
+				<div id="map-canvas"></div>
+				</center>
+				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99580.00554143198!2d-9.160203750000013!3d38.743626600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisbon!5e0!3m2!1sen!2spt!4v1427281562638" width="600" height="450" frameborder="0" style="border:0"></iframe> -->				
 			</p>
 			<h3>
 				Where is the conference venue?
