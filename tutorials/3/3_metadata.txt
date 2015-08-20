@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Applications of Social Media Text Analysis
+ShortPaperTitle#=%=#Applications of Social Media Text Analysis
+NumberOfPages#=%=#2
+CopyrightSigned#=%=#Diana Inkpen
+JobTitle#==#
+Organization#==#University of Ottawa
+School of Electrical Engineering and Computer Science
+800 King Edward, Ottawa, ON, Canada, K1N 6N5
+Abstract#==#Our tutorial will focus on the need for showcasing the new research studies and
+techniques for Natural Language Processing of social media texts. We will
+present text analysis techniques for social media data in the context of
+natural language understanding, natural language generation, automatic
+categorization, topic detection, trend and interest exploration, emotion
+analysis, and applications using a variety of computational approaches to
+process large amounts of data. 
+
+The content of the tutorial will be based on chapters 3 and 4 of our upcoming
+book. The first part of the tutorial will focus on several tasks for semantic
+analysis of social media texts, such as: geo-location detection, opinion mining
+and emotion analysis, event and topic detection, entity linking and
+disambiguation, summarization in social media, and machine translation in
+social media. The second part of the tutorial will focus on real-world
+applications of social media text analysis such as: health care applications
+financial applications, predicting voting intentions, media monitoring,
+security and defence applications, NLP-based information visualisation for
+social media, disaster response applications, NLP-based user modelling and
+applications for entertainment.
+Author{1}{Firstname}#=%=#Atefeh
+Author{1}{Lastname}#=%=#Farzindar
+Author{1}{Email}#=%=#farzindar@nlptechnologies.ca
+Author{1}{Affiliation}#=%=#NLP Technologies
+Author{2}{Firstname}#=%=#Diana
+Author{2}{Lastname}#=%=#Inkpen
+Author{2}{Email}#=%=#diana@site.uottawa.ca
+Author{2}{Affiliation}#=%=#University of Ottawa
+
+==========

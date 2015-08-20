@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Knowledge Acquisition for Web Search
+ShortPaperTitle#=%=#Knowledge Acquisition for Web Search
+NumberOfPages#=%=#62
+CopyrightSigned#=%=#Marius Pasca
+JobTitle#==#
+Organization#==#Google Inc.
+1600 Amphitheatre Parkway, Mountain View, CA 94043
+Abstract#==#This tutorial examines the role of knowledge in information retrieval in
+general, and Web search in particular. Knowledge is available as instances,
+classes and relations that are either available in human-generated resources,
+or extracted automatically from text. The tutorial teaches the audience about
+characteristics, advantages and limitations of human-generated knowledge
+resources, and knowledge extracted from the Web; the role of knowledge
+resources in enhancing information retrieval; and implications in information
+access and retrieval in general.
+Author{1}{Firstname}#=%=#Marius
+Author{1}{Lastname}#=%=#Pasca
+Author{1}{Email}#=%=#mars@google.com
+Author{1}{Affiliation}#=%=#Google Inc.
+
+==========

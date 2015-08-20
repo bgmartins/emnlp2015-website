@@ -1,0 +1,65 @@
+Transparent Machine Learning for Information Extraction: State-of-the-Art and the Future
+
+Laura Chiticariu (IBM Research – Almaden), Yunyao Li (IBM Research - Almaden), Frederick R. Reiss (IBM Research – Almaden),
+
+The rise of Big Data analytics over unstructured text has led to renewed interest in information extraction (IE). These applications 
+need effective IE as a first step towards solving end-to-end real world problems (e.g. biology, medicine, finance, media and entertainment,
+etc). Much recent NLP research has focused on addressing specific IE problems using a pipeline of multiple machine learning techniques.
+This approach requires an analyst with the expertise o answer questions such as: “What ML techniques should I combine to solve this problem?”; 
+“What features will be useful for the composite pipeline?”; and “Why is my model giving the wrong answer on this document?”. The need for 
+this expertise create problems in real world applications. It is very difficult in practice to find an analyst who both understands the real
+world problem and has deep knowledge of applied machine learning. As a result, the real impact by current IE research does not match up to 
+the abundant opportunities available.
+
+In this tutorial, we introduce the concept of transparent machine learning. A transparent ML technique is one that: (1) produces models 
+that a typical real world user can read and understand; (2) uses algorithms that a typical real world user can understand; and
+ allows a real world user to adapt models to new domains. Although most recent IE research focuses on techniques
+that are opaque—not transparent—there is a significant minority by various researchers from industry and academia that does not. The main goal
+of our tutorial is to highlight this line of work and motivate new research directions that will lead to more transparent machine learning in IE, 
+resulting in greater impact in solving real-world problems. We categorize, compare and analyze recent advances in this area, providing a systematic 
+view of the stateof-the-art. We cover transparent machine learning techniques for both learning features useful for information extraction, as well as 
+learning complete extractors. We also share our experience and lessons learned on building an enterprise information extraction
+system integrated with multiple transparent machine learning techniques.
+
+
+Outline
+
+1. Motivating Examples [30 minutes]
+	 Examples of real-world applications
+	 Practical challenges
+		– Accuracy
+		– Scalability
+		– Transparency
+		– Usability
+
+2. Transparent Machine Learning for Information Extraction: Introduction [10 minutes]
+
+3. Transparent Machine Learning for Information Extraction: State of the Art [80 minutes]
+	 Learning features for information extraction [40 minutes]
+
+	 Learning extractors [40 minutes]
+
+4. Case Study: Building an End-to-End Transparent Enterprise Information Extraction System [45 minutes]
+	 Design considerations
+	 Overall architecture
+	 Transparent machine learning techniques
+	 Live demonstration
+
+5. Conclusion: Research challenges and future directions [15 minutes]
+
+The tutorial is aimed at IE researchers in both the academic and industry communities who are interested in developing and applying transparent ML. 
+
+Instructors
+
+Laura Chiticariu is a Research Staff Member at IBM Research – Almaden. She received her Ph.D from U.C. Santa Cruz in 2008. Her current research
+focuses on improving developmental support in information extraction systems.
+
+Yunyao Li is a Research Staff Member and Research Manager at IBM Research – Almaden. She received her Ph.D from the University of Michigan,
+Ann Arbor in 2007. She is particularly interested in designing, developing and analyzing large scale systems that are usable by a wide spectrum of users.
+Towards this direction, her current research focuses on enterprise-scale natural language processing.
+
+Frederick Reiss is a Research Staff Member at IBM Research – Almaden. He received his Ph.D. from U.C. Berkeley in 2006. His research focuses on improving
+the scalability of text analytics in enterprise applications.
+
+
+

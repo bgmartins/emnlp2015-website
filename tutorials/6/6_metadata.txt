@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Computational Analysis of Affect and Emotion in Language
+ShortPaperTitle#=%=#Computational Analysis of Affect and Emotion in Language
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#N.A.
+JobTitle#==#
+Organization#==#
+Abstract#==#Computational linguistics has witnessed a surge of interest in approaches to
+emotion and affect analysis, tackling problems that extend beyond sentiment
+analysis, in depth and complexity. This area involves basic emotions (such as
+joy, sadness, and fear) as well as any of the hundreds of other emotions humans
+are capable of (such as optimism, frustration, and guilt), expanding into
+affective conditions, experiences, and activities. Leveraging linguistic data
+for computational affect and emotion inference enables opportunities to address
+a range of affect-related tasks, problems, and non-invasive applications that
+capture aspects essential to the human condition and individuals’ cognitive
+processes. These efforts enable and facilitate human-centered computing
+experiences, as demonstrated by applications across clinical, socio-political,
+artistic, educational, and commercial domains.
+
+There is a substantial body of work in traditional sentiment analysis (focusing
+on positive and negative sentiment). This tutorial will cover approaches and
+features that migrate well to affect analysis. We will also discuss key
+differences from sentiment analysis, and their implications for analyzing
+affect and emotion.
+Author{1}{Firstname}#=%=#Saif
+Author{1}{Lastname}#=%=#Mohammad
+Author{1}{Email}#=%=#uvgotsaif@gmail.com
+Author{1}{Affiliation}#=%=#National Research Council Canada
+Author{2}{Firstname}#=%=#Cecilia
+Author{2}{Lastname}#=%=#Ovesdotter Alm
+Author{2}{Email}#=%=#coagla@rit.edu
+Author{2}{Affiliation}#=%=#Rochester Institute of Technology
+
+==========

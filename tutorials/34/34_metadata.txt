@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Semantic Similarity Frontiers: From Concepts to Documents
+ShortPaperTitle#=%=#Semantic Similarity Frontiers: From Concepts to Documents
+NumberOfPages#=%=#2
+CopyrightSigned#=%=#Taher Pilehvar
+JobTitle#==#Postdoctoral Scholar
+Organization#==#Sapienza University of Rome
+Abstract#==#Semantic similarity forms a central component in many NLP systems, from lexical
+semantics, to part of speech tagging, to social media analysis. While work on
+semantic similarity is long standing, recent years have seen a renewed interest
+in developing new techniques, buoyed by the SemEval tasks in Semantic Textual
+Similarity and the recent task of Cross-Level Semantic Similarity, which has
+led to new semantic similarity methods that are effective across all types of
+inputs, e.g,. concepts, phrases, or even paragraphs. This renewed interest has
+led to hundreds of techniques for measuring semantic similarity, which makes it
+difficult for practitioners to identify which state-of-the-art techniques are
+applicable to their areas and may easily be integrated and for researchers to
+identify which aspects of the problem require future research. 
+
+This tutorial synthesizes the current state of the art for measuring semantic
+similarity for all types of conceptual or textual pairs and presents a broad
+overview of current techniques, what resources they use, and the particular
+inputs or domains to which the methods are most applicable. We survey methods
+ranging from corpus-based approaches operating on massive or domains-specific
+corpora to those leveraging structural information from expert-based or
+collaboratively-constructed lexical resources. We review work on individual
+similarity tasks (e.g., word comparison) for those interested in a single
+comparison type, while also providing a review of general-purpose methods. Our
+tutorial provides practitioners who need out of the box solutions with a clear
+overview of currently-available tools and each tools’ strength and provides
+researchers with an understanding of current state of the art and what open
+problems remain in the field.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Jurgens
+Author{1}{Email}#=%=#jurgens@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Mohammad Taher
+Author{2}{Lastname}#=%=#Pilehvar
+Author{2}{Email}#=%=#pilehvar@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

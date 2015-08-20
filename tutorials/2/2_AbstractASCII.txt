@@ -1,0 +1,26 @@
+TUTORIAL DESCRIPTION:
+Personality Research for NLP
+Yair Neuman (Ben-Gurion University of the Negev)
+
+"Personality" is a psychological concept describing the individual's characteristic patterns of thought, emotion, and behavior. In the context of Big Data and granular analytics, it is highly important to measure the individual's personality dimensions as these may be used for various practical applications. However, personality has been traditionally studied by questionnaires and other forms of low tech methodologies. The availability of textual data and the development of powerful NLP technologies, invite the challenge of automatically measuring personality dimensions for various applications from granular analytics of customers to the forensic identification of potential offenders. While there are emerging attempts to address this challenge, these attempts almost exclusively focus on one theoretical model of personality and on classification tasks limited when tagged data are not available.  
+
+The major aim of the tutorial is to provide NLP researchers with an introduction to personality theories that may empower their scope of research. In addition,  two secondary aims are to survey some recent directions in computational personality and to point to future directions in which the field may be developed (e.g. Textual Entailment for Personality Analytics).  
+
+Outline
+1. Introduction: What is personality research and why is it important for the NLP community? 
+2. Theories of personality 
+o The Five Factor Model (FFM) of personality: Dogma and critique
+o The psychodynamic model: Beyond the straw-man of Dr. Freud 
+o The cognitive-behavioral approach: What you think is what you get
+o The Affective-Neuroscience approach: Putting the brain into action
+o The requisite variety of personality theories: Why should we have more ideas in our tool kit
+3. NLP and computational personality: Going beyond classification 
+4. Practical applications 
+o Homeland security: How to identify a murderer in a haystack
+o Military intelligence: Profiling political leaders
+o Customers' service: Who is the unhappy customer
+5. Conclusions and discussion 
+
+Presenter
+Prof. Yair Neuman (Ben-Gurion Univ. of the Negev) is the co-director of the Behavioral Insights Research Lab at the University of Toronto and a senior fellow at the Brain Sciences Foundation. Among his fields of interest are the interface of NLP and psychology and the development of novel cognitive-psychological technologies. 
+  

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Robust Semantic Analysis of Multiword Expressions with FrameNet
+ShortPaperTitle#=%=#Robust Semantic Analysis of Multiword Expressions with FrameNet
+NumberOfPages#=%=#2
+CopyrightSigned#=%=#Miriam R L Petruck
+JobTitle#==#
+Organization#==#
+Abstract#==#This tutorial will give participants a solid understanding of the linguistic
+features of multiword expressions (MWEs), focusing on the semantics of such
+expressions and their importance for natural language processing and language
+technology, with particular attention to the way that FrameNet
+(framenet.icsi.berkeley.edu) handles this wide spread phenomenon. Our target
+audience includes researchers and practitioners of language technology, not
+necessarily experts in MWEs or knowledgeable about FrameNet, who are interested
+in NLP tasks that involve or could benefit from considering MWEs as a pervasive
+phenomenon in human language and communication.
+Author{1}{Firstname}#=%=#Miriam R L
+Author{1}{Lastname}#=%=#Petruck
+Author{1}{Email}#=%=#miriamp@icsi.berkeley.edu
+Author{1}{Affiliation}#=%=#International Computer Science Institute
+Author{2}{Firstname}#=%=#Valia
+Author{2}{Lastname}#=%=#Kordoni
+Author{2}{Email}#=%=#kordonie@anglistik.hu-berlin.de
+Author{2}{Affiliation}#=%=#Humboldt University, Berlin
+
+==========

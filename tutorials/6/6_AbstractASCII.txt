@@ -1,0 +1,68 @@
+Computational Analysis of Affect and Emotion in Language
+
+Tutorial Overview and Relevance to the ACL Community
+
+Computational linguistics has witnessed a surge of interest in approaches to emotion and affect analysis, tackling problems that extend beyond sentiment analysis in depth and complexity. This area involves basic emotions (such as joy, sadness, and fear) as well as any of the hundreds of other emotions humans are capable of (such as optimism, frustration, and guilt), expanding into affective conditions, experiences, and activities.  Leveraging linguistic data for computational affect and emotion inference enables opportunities to address a range of affect-related tasks, problems, and non-invasive applications that capture aspects essential to the human condition and individuals' cognitive processes. These efforts enable and facilitate human-centered computing experiences, as demonstrated by applications across clinical, socio-political, artistic, educational, and commercial domains. Efforts to computationally detect, characterize, and generate emotions or affect-related phenomena respond equally to technological needs for personalized, micro-level analytics and broad-coverage, macro-level inference, and they have involved both small and massive amounts of data. 
+
+While this is an exciting area with numerous opportunities for members of the ACL community, a major obstacle is its intersection with other investigatory traditions, necessitating knowledge transfer. This tutorial comprehensively integrates relevant concepts and frameworks from linguistics, cognitive science, affective computing, and computational linguistics in order to equip researchers and practitioners with the adequate background and knowledge to work effectively on problems and tasks either directly involving, or benefiting from having an understanding of, affect and emotion analysis.
+
+There is a substantial body of work in traditional sentiment analysis focusing on positive and negative sentiment. This tutorial covers approaches and features that migrate well to affect analysis. We also discuss key differences from sentiment analysis, and their implications for analyzing affect and emotion.
+
+The tutorial begins with an introduction that highlights opportunities, key terminology, and interesting tasks and challenges (1). The body of the tutorial covers characteristics of emotive language use with emphasis on relevance for computational analysis (2); linguistic data---from conceptual analysis frameworks via useful existing resources to important annotation topics (3); computational approaches for lexical semantic emotion analysis (4); computational approaches for emotion and affect analysis in text (5); visualization methods (6); and a survey of application areas with affect-related problems (7). The tutorial concludes with an outline of future directions and a discussion with participants about the areas relevant to their respective tasks of interest (8). A more detailed outline of the tutorial structure is presented in the next section.
+
+Besides attending the tutorial, tutorial participants receive electronic copies of tutorial slides, a complete reference list, as well as a categorized annotated bibliography that concentrates on seminal works, recent important publications, and other products and resources for researchers and developers.
+
+
+Tutorial Structure
+
+1. Introduction (15 min)
+	- Opportunities for language as a cognitive sensor of affect and emotion
+	- Concepts: affect, emotion, mood, personality, and other key terminology
+	- Important NLP tasks and problems involving affect and emotion analysis
+	- Challenges to automatic affect detection, characterization, and generation
+2. Emotive Language Use (25 min)
+	- How language users communicate affect and emotion across modalities in text, speech, signed, and multimodal data
+	- Links to socio-linguistic attributes of language users
+	- Implications for and translation into features for computational analysis
+3. Linguistic Data (20 min)
+	- Alternatives for conceptual computational modeling of affect in language, including lessons learned from theoretical frameworks in cognitive science 
+	- Issues and solutions for linguistic annotation of affect and emotion
+	- Useful linguistic datasets and lexical resources for computational analysis---from social media to domain-specific corpora
+4. Computational Modeling: Part 1 (15 min)
+	- Capturing emotion at the level of lexical semantics vs. textual units 
+	- Term emotion associations with automatically generated term-emotion lexicons, including for hundreds of emotions and in social media texts
+5. Computational Modeling: Part 2 (30 min)
+	- Statistical models of textual emotion detection and characterization
+	- Detecting personality from essays, tweets, and Facebook posts
+	- Where are we now? Current performance and feature experimentation results
+	- Intersections with sentiment analysis and emotional speech processing 
+6. Visualizing Computational Outcomes (15 min)
+	- Common visualization techniques
+	- Tracking emotions in large text corpora 
+	- Visualizations that allow comparison and contrast with relevant baselines
+7. Survey of Applications (35 min)
+	- Political science: Social media analysis in electoral processes 
+	- Creative and fine arts: Literary analysis and music generation 
+	- Clinical: Mental health, cognitive health, and medical decision-making 
+	- Business and education: Leveraging personalized/macro-level affect sensing 
+8. Future directions and wrap-up (10 min)
+	- Emotions analysis for processing figurative language and metaphor 
+	- Understanding relationships between emotions
+	- Semantic roles of emotions
+	- Enhancing evaluation procedures
+	- Effective integration of NLP into multimodal affect analysis 
+	- Present and future tasks: What can emotion analysis do for your task? (Opening up discussion with tutorial participants which can then be continued during/after the conference)
+
+
+Tutorial Instructors
+
+Saif M Mohammad (Ph.D., Computer Science)
+Researcher, National Research Council Canada
+
+Statement of research interests: Saif Mohammad has research interests in computational linguistics and natural language processing, especially lexical semantics and affect analysis. He develops computational models for sentiment analysis, emotion detection, semantic distance, and lexical-semantic relations such as word-pair antonymy. His team has developed a sentiment analysis system which ranked first in SemEval shared tasks on the sentiment analysis of tweets and on aspect-based sentiment analysis. His word-emotion association resource, the NRC Emotion Lexicon, is widely used for text analysis and information visualization. His recent work on generating music from emotions in text garnered widespread media attention, including articles in Time, LiveScience, io9, The Physics arXiv Blog, PC World, and Popular Science.
+
+Cecilia Ovesdotter Alm (Ph.D., Linguistics)
+Assistant Professor, Rochester Institute of Technology
+
+Statement of research interests: Cecilia Ovesdotter Alm is a computational linguist dedicated to advancing the understanding of affective and subjective meaning across linguistic modalities and multimodal data. Her work focuses on linguistic annotation and resource development for affect-related problems, as well as computational modeling involving text and speech, image understanding, and linguistic or multimodal sensing in this area. She has published Affect in Text and Speech (2009) as well as articles in proceedings and journals, representing over a decade of related research.
+

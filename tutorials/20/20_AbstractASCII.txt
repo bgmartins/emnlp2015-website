@@ -1,0 +1,49 @@
+Robust Semantic Analysis of Multiword Expressions with FrameNet
+Miriam R. L. Petruck  and Valia Kordoni 
+
+Multiword Expressions (MWEs) are ubiquitous in natural language. Despite advances in technology, 
+MWEs remain a serious challenge for Natural Language Processing (NLP) because of the difficulty in 
+automatically recognizing, acquiring, and interpreting such forms.
+
+Specifically, MWEs are not nearly as frequent in NLP resources as they are in real-world text, and this 
+problem of coverage may impact the performance of many NLP tasks. Moreover, treating MWEs also 
+involves problems like determining their semantics, which is not always compositional (as when kick the 
+bucket means ?die?). Thus, MWEs are a critical issue and a current weakness for natural language parsing 
+and generation, as well as real-life applications that depend on language technology.
+
+This tutorial will give participants a solid understanding of the linguistic features of multiword 
+expressions (MWEs), focusing on the semantics of such expressions and their importance for natural 
+language processing and language technology, with particular attention to the way that FrameNet 
+(framenet.icsi.berkeley.edu) handles this wide spread phenomenon. The tutorial is geared toward 
+researchers and practitioners of language technology, not necessarily experts in MWEs or knowledgeable 
+about FrameNet, who are interested in NLP applications (such as machine translation, information 
+retrieval, and question answering) that involve or could benefit from considering MWEs as a pervasive 
+phenomenon in human language and communication.
+
+Outline
+Part I: General Overview of MWEs
+a.	Introduction
+b.	Types of MWEs
+c.	Syntactic and Semantic Characteristics of MWEs
+d.	Representational Issues in MWEs
+Part II: MWEs in FrameNet
+a.	Overview of FrameNet
+b.	FrameNet?s treatment of MWEs
+c.	Navigating Lexicon and Grammar
+d.	Exploiting FrameNet Information on MWEs
+Part III: Computational Processing of MWEs
+a.	Recognizing elements of MWEs: type identification	
+b.	Recognizing how MWE elements combine: syntactic and semantic variability
+c.	Disambiguation of MWEs		
+d.	Compositionality and Interpretation of MWEs
+Part IV: Robust Semantic Analysis of Multiword Expressions in FrameNet: main challenges
+
+Miriam R. L. Petruck (miriamp@icsi.berkeley.edu) received her PhD in Linguistics from the University 
+of California, Berkeley. A key member of the team developing FrameNet almost since the project?s 
+founding, her research interests include semantics, knowledge base development, grammar and lexis, 
+lexical semantics, Frame Semantics and Construction Grammar.
+
+Valia Kordoni (evangelia.kordoni@anglistik.hu-berlin.de) received her PhD in Computational Linguistics 
+from the University of Essex, UK. She joined the Department of English Studies, Humboldt University 
+Berlin in 2012, where she is Research Professor of Linguistics. Her main research interests are in deep 
+linguistic processing, semantic analysis, and multiword expressions.

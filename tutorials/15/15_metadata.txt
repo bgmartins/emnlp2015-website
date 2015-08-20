@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Transparent Machine Learning for Information Extraction: State-of-the-Art and the Future
+ShortPaperTitle#=%=#Transparent Machine Learning for Information Extraction: State-of-the-Art and the Future
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Yunyao Li
+JobTitle#==#
+Organization#==#IBM Research - Almaden
+650 Harry Road
+San Jose, CA 95120
+Abstract#==#Although most recent IE research focuses on techniques that are opaque—not
+transparent—there is a significant minority by various researchers from
+industry and academia that does not. The main goal of our tutorial is to
+highlight this line of work and motivate new research directions that will lead
+to more transparent machine learning in IE, resulting in greater impact in
+solving real-world problems. We categorize, compare and analyze recent advances
+in this area, providing a systematic view of the state-of-the-art. We cover
+transparent machine learning techniques for both learning features useful for
+information extraction, as well as learning complete extractors. We also share
+our experience and lessons learned on building an enterprise information
+extraction
+system integrated with multiple transparent machine learning techniques.
+Author{1}{Firstname}#=%=#Laura
+Author{1}{Lastname}#=%=#Chiticariu
+Author{1}{Email}#=%=#chiti@us.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research - Almaden
+Author{2}{Firstname}#=%=#Yunyao
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#yunyaoli@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Almaden
+Author{3}{Firstname}#=%=#Frederick
+Author{3}{Lastname}#=%=#Reiss
+Author{3}{Email}#=%=#frreiss@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research - Almaden
+
+==========

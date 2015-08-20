@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Personality Research for NLP
+ShortPaperTitle#=%=#Personality Research for NLP
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#YAIR NEUMAN
+JobTitle#==#
+Organization#==#
+Abstract#==#The availability of textual data and the development of powerful NLP
+technologies, invite the challenge of automatically measuring personality
+dimensions in textual data for various applications from granular analytics of
+customers to the forensic identification of potential offenders.
+
+While there are emerging attempts to address this challenge (such as the recent
+"Computational Personality" Workshops, e.g. Celli et al., 2013), these attempts
+almost exclusively focus on one theoretical model of personality and on
+classification tasks that are limited when tagged data are not available.
+
+The major aim of the proposed tutorial is to provide NLP researchers with an
+introduction to personality theories that may empower their scope of research.
+Author{1}{Firstname}#=%=#Yair
+Author{1}{Lastname}#=%=#Neuman
+Author{1}{Email}#=%=#yneuman@bgu.ac.il
+Author{1}{Affiliation}#=%=#Ben-Gurion University of the Negev
+
+==========
