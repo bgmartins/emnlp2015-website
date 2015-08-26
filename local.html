@@ -37,6 +37,14 @@
          });
 	     var i1 = new google.maps.InfoWindow({ content: "<b>Culturgest<br/><i>(conference venue)</i></b>" });
 	     google.maps.event.addListener(m1, 'click', function() { i1.open(map,m1); });
+         var m2 = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(38.706411,-9.1944471),
+		  icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+          title: 'Páteo Alfacinha'
+         });
+	     var i2 = new google.maps.InfoWindow({ content: "<b>Páteo Alfacinha<br/><i>(conference banquet)</i></b>" });
+	     google.maps.event.addListener(m2, 'click', function() { i2.open(map,m2); });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
        </script>
