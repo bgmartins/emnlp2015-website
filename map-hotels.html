@@ -101,7 +101,40 @@
         title: 'Hotel Holiday Inn Lisbon'
        });	    
        var i9 = new google.maps.InfoWindow({ content: "<b>Hotel Holiday Inn Lisbon</b>" });
-       google.maps.event.addListener(m9, 'click', function() { i9.open(map,m9); });	 	   
+       google.maps.event.addListener(m9, 'click', function() { i9.open(map,m9); });	 	   var m10 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.745749,-9.140292),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=9|0000FF|FFFFFF",
+        title: 'Hotel Roma'
+       });	    
+       var i10 = new google.maps.InfoWindow({ content: "<b>Hotel Roma</b>" });
+       google.maps.event.addListener(m10, 'click', function() { i10.open(map,m10); });		
+	   var m11 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.7395511,-9.1458995),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=10|0000FF|FFFFFF",
+        title: 'Jupiter Lisbon'
+       });	    
+       var i11 = new google.maps.InfoWindow({ content: "<b>Jupiter Lisbon</b>" });
+       google.maps.event.addListener(m11, 'click', function() { i11.open(map,m11); });	   
+	   var m12 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.735498,-9.1375824),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=11|0000FF|FFFFFF",
+        title: 'Turim Alameda'
+       });	    
+       var i12 = new google.maps.InfoWindow({ content: "<b>Turim Alameda</b>" });
+       google.maps.event.addListener(m10, 'click', function() { i12.open(map,m12); });		   
+	   var m13 = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(38.74242,-9.13473),
+		icon: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=9|0000FF|FFFFFF",
+        title: 'Hotel Afrin'
+       });	    
+       var i13 = new google.maps.InfoWindow({ content: "<b>Hotel Afrin</b>" });
+       google.maps.event.addListener(m13, 'click', function() { i13.open(map,m13); });		   
+	   
+	   
 						   
        // makers for hotels in Belem and Tagus river (Rio Tejo) area
 	   var mm1 = new google.maps.Marker({
