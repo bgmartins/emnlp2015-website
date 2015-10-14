@@ -1,0 +1,92 @@
+h1, h2, h3 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: emnlp;
+  src: url(fonts/Aller_Rg.ttf);
+}
+
+@font-face {
+  font-family: emnlp;
+  src: url(fonts/Aller_Bd.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: emnlp;
+  src: url(fonts/Aller_It.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: emnlp;
+  src: url(fonts/Aller_BdIt.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  font-family: emnlp;
+  color: #4e4e4e;
+}
+
+table {
+  border: 0px;
+  border-spacing: 0px;
+}
+
+tr {
+  margin: 5px;
+}
+
+td {
+  margin: 0px;
+  padding: 10px;
+}
+
+a {
+  color: #B71D6A;
+}
+
+.bg1 {
+  background-color: #ffffff;
+}
+
+.bg2 {
+  background-color: #ffffff;
+}
+
+.bg3 {
+  background-color: #ffffff;
+}
+
+.header {
+  font-weight: bold;
+  color: #990000;
+}
+
+.subheader {
+  font-weight: bold;
+  color: #990000;
+}
+
+.general-index-main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pub-chairs {
+  font-size: small;
+  text-align: right;
+}
+
+.general-index-section {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.general-index-subsection {
+  padding: 5px;
+}

@@ -260,7 +260,6 @@ DIV#cmain { overflow: hidden; }
  float: left;
 }
 
-
 #committees LI SPAN, #past-emnlp LI SPAN, #past-conll LI SPAN {
  display: block;
  font-variant: small-caps;
@@ -510,7 +509,7 @@ DIV#talks, DIV#posters {
  font-variant: small-caps;
 }
 
-.program A {
+/* .program A {
  border: none;
  background: url(go-normal.png) right 3px no-repeat;
  padding-right: 14px;
@@ -519,7 +518,7 @@ DIV#talks, DIV#posters {
 .program A:hover {
  color: #406040;
  background-image: url(go-hover.png);
-}
+} */
 
 .program UL LI SPAN {
  margin-left: 100px;
@@ -546,7 +545,7 @@ DIV#talks, DIV#posters {
 
 .program H3 {
  margin: 3em 40px 1em 40px;
- padding: 0 40px;
+/* padding: 0 40px; */
  border-bottom: 2px solid #cccceb;
 }
 
